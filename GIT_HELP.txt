@@ -1,0 +1,31 @@
+ git init
+ git status
+ git add ""hello.txt""
+ git commit -m 'Add some code'
+ git log
+ Token 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
+ git remote add ""test"" https://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@github.com/AlexPogyl/TestGIT.git - Подключение к удаленному репозиторию
+git push ""test"" master -Отправка изменений на сервер 
+git pull ""test"" master - Запрос изменений с сервера
+ git branch ""amazing_new_feature"" - новая ветка
+ 
+###############################################################
+ Переключение между ветками
+ git branch
+ git checkout ""amazing_new_feature"" -переключиться на другую ветку
+
+###############################################################
+Слияние веток
+
+ git add ""feature.txt""                       - добавим файл в новую ветку
+ git commit -m "New feature complete.”
+ 
+ git checkout master - переключение на ветку master
+ git merge ""amazing_new_feature"" - слияние веток
+ git branch -d ""awesome_new_feature"" - удаление ветки awesome_new_feature
+  
+  
+ git clone - копия репозитория
+ git checkout -b <имя ветки> origin/<имя ветки> - копия ветки
+ 
+ 
